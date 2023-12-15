@@ -1,9 +1,10 @@
 #include <stdio.h>
-/*why does not adding int next to main as well as void as a main argument make my program bomb*/
-
+/**
+ * main - Entry point for the program
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-  puts("Programming is like building a multilingual puzzle.");
-  return(0);
-
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
