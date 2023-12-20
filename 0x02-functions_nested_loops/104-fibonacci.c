@@ -1,42 +1,29 @@
 #include <stdio.h>
-
 /**
- * main - print Fibonacci sequence up to the 98th term
+ * main - print fibonacci
  * Return: 0
- */
+*/
 int main(void)
 {
-unsigned long long int first, second, next, i;
-
-/*Initialize the first two terms of the Fibonacci sequence*/
+long int first, second, next, i;
 first = 1;
 second = 2;
-
-/*Print the initial values*/
-printf("%llu, %llu, ", first, second);
-
-/*Generate and print the Fibonacci sequence up to the 98th term*/
+next = first + second;
+printf("%ld, %ld, ", first, second);
 for (i = 3; i <= 98; i++)
 {
-/*Calculate the next term in the sequence*/ 
-next = first + second;
-
-/*Print the current term with appropriate formatting*/ 
 if (i == 98)
 {
-printf("%llu", next);
+printf("%ld", next);
 }
 else
 {
-printf("%llu, ", next);
+printf("%ld, ", next);
 }
-
-/*Update values for the next iteration*/ 
 first = second;
 second = next;
+next = first + second;
 }
-
-/*Print a newline at the end*/
 printf("\n");
 return (0);
 }
