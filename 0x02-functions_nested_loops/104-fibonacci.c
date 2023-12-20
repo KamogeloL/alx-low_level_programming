@@ -9,7 +9,7 @@ int main(void)
 unsigned long fib1 = 1, fib2 = 2, next_term;
 int count;
 
-printf("%lu, %lu", fib1, fib2); // Print the first two Fibonacci numbers
+printf("%lu, %lu", fib1, fib2); /* Print the first two Fibonacci numbers*/
 
 for (count = 3; count <= 98; ++count)
 {
