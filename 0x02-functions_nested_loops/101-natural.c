@@ -21,7 +21,7 @@ result += i;
 i++;
 } /* END While */
 
-printf("%d\n", result);
-    return (0);
+ printf("%d\n", result);
+ return (0);
 }
 
