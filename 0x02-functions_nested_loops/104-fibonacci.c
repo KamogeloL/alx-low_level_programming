@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-long int first, second, next, i;
+int first, second, next, i;
 
 
 /*Initialize the first two terms of the Fibonacci sequence*/
@@ -14,7 +14,7 @@ first = 1;
 second = 2;
 
 /*Print the initial values*/
-printf("%ld, %ld, ", first, second);
+printf("%i, %i, ", first, second);
 
 /*Generate and print the Fibonacci sequence up to the 98th term*/
 for (i = 3; i <= 98; i++)
@@ -25,11 +25,11 @@ next = first + second;
 /*Print the current term with appropriate formatting*/
 if (i == 98)
 {
-printf("%ld", next);
+printf("%i", next);
 }
 else
 {
-printf("%ld, ", next);
+printf("%i, ", next);
 }
 
 /*Update values for the next iteration*/
