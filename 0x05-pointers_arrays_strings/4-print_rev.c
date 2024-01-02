@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * get the length of the string
  * print_rev - prints a string rev
+ * get lenght of the string
  *@s: A pointer to an int that will be updated
  *
  *Return: void
