@@ -9,11 +9,9 @@
 
 void puts2(char *str)
 {
-	/*Declaring variables*/
 	int i;
 	
-	/*iterates thru str. prints evry 2nd char*/
-	for (i = 0; str[i] != '\0'; i++) 
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i % 2 == 0)
 		_putchar (str[i]); /*display contents*/
